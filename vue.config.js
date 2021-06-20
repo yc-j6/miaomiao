@@ -1,12 +1,12 @@
 module.exports = {
     devServer : {
         proxy : {
-            '/api2' : {
-                target : 'http://localhost:3000',
+            '/dianying' : {
+                target : 'https://m.maoyan.com',
                 changeOrigin : true
             },
-            '/api' : {
-                target : 'http://39.97.33.178',
+            '/ajax' : {
+                target : 'https://m.maoyan.com',
                 changeOrigin : true
             }
         }
